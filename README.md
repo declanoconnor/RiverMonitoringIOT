@@ -15,10 +15,15 @@ The generator housing has been removed to demonstrate the Light switching from g
 <img src="https://github.com/declanoconnor/RiverMonitoringIOT/blob/master/Video25032019132730.gif" width="250" height="444" align="left">
 
 The following is a prototype IOT mobile application using blynk libraries to create a water flow rate monitor. This application displays:
+</br>
 -Date
+</br>
 -Flow Rate (Gauge)
+</br>
 -Flow rate (Bar chart)
+</br>
 -Chart to track previous flow over dynamic time frames
+</br>
 -Terminal
-
+</br>
 The terminal allows for a direct interface with the IOT device enabling the use of progammable commands. One exemplary command is 'voltage' which outputs the voltage of the device.
