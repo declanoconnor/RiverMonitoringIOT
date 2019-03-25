@@ -1,8 +1,6 @@
 # RiverMonitoringIOT
 A Hydro-Electric IOT mobile application built for flood detection using blynk libraries
 
-# Hydro-Electric-Gen-App
-
 ## IOT
 
 The generator housing has been removed to demonstrate the Light switching from green(safe) to red(danger) if the flow exceeds the given rate.
