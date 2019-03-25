@@ -12,7 +12,7 @@ The generator housing has been removed to demonstrate the Light switching from g
 
 ## Application
 
- <img src="https://github.com/declanoconnor/RiverMonitoringIOT/blob/master/Video25032019132730.gif" width="250" height="444" align="left">
+ 
 
 The following is a prototype IOT mobile application using blynk libraries to create a water flow rate monitor. This application displays:
 </br></br></br>
