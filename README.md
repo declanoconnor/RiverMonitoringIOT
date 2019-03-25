@@ -1,5 +1,5 @@
 # RiverMonitoringIOT
-A Hydro-Electric IOT mobile application built for flood detection using blynk libraries
+A Hydro-Electric IOT mobile application built for flood detection using blynk libraries. 🌊
 
 ## IOT
 
