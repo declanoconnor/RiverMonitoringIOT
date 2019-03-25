@@ -42,15 +42,17 @@ BLYNK_WRITE(V2)
   //Declare variables
   int pinValue = analogRead (A0);
   int voltage = pinValue / 204;
+  int literspm = voltage * 1.25;
 
   //Display commands when prompted
   if (String("help") == param.asStr()) {
       terminal.print(F("--------------------------------------------"));
       terminal.print(F("COMMANDS------------------------------------"));
       terminal.print(F("--------------------------------------------"));
-      terminal.print(F("help:    Displays commands                    "));
-      terminal.print(F("voltage: Displays voltage output                    "));
-      terminal.print(F("clear:   Clears terminal window                     "));
+      terminal.print(F("help:     Displays commands                   "));
+      terminal.print(F("voltage:  Displays voltage output                   "));
+      terminal.print(F("literspm: Displays Liters Per Minute                "));
+      terminal.print(F("clear:    Clears terminal window                    "));
   }
 
   //Clear the terminal when prompted
@@ -63,6 +65,14 @@ BLYNK_WRITE(V2)
     terminal.print(F("GENERATOR IS CURRENTLY RUNNING AT:"));
     terminal.print(voltage);
     terminal.print(F("V"));
+    terminal.print(F("                                               "));
+  } 
+
+    //Display the Liters per minute output when prompted
+  if (String("literspm") == param.asStr()) {
+    terminal.print(F("The flowrate is currently:"));
+    terminal.print(literspm);
+    terminal.print(F(" Liters Per Minute"));
     terminal.print(F("                                               "));
   } 
 
