@@ -29,3 +29,10 @@ The following is a prototype IOT mobile application using blynk libraries to cre
 </br>
 </br>
 The terminal allows for a direct interface with the IOT device enabling the use of progammable commands. One exemplary command is 'voltage' which outputs the voltage of the device.
+
+---
+
+## Schematic
+Here is the wiring diagram for the IOT device:
+
+<img src="https://github.com/declanoconnor/RiverMonitoringIOT/blob/master/schematic.png" align="left">
